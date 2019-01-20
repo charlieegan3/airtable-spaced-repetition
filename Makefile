@@ -1,5 +1,3 @@
-.PHONY: test
-
 PROJECT := evernote-spaced-repetition
 TAG := $(shell tar -cf - . | md5sum | cut -f 1 -d " ")
 
